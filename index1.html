@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="assets/logojs.png">
+    <title>Apprendre le DOM</title>
+</head>
+<body>
+    <div class="click-eventbox" id="box">
+        <h4>Quelle est la capitale de la suisse?</h4>
+        <button id="btn-1">Berne</button>
+        <button id="btn-2">Zurich</button>
+        <p>la bonne réponse est Berne</p>
+       
+    </div>
+
+    <div class="mousemove"></div>
+    
+    <div class="keypress-box">
+        <h2>Vous appuyez sur la touche : <span id="key"></span></h2>
+    </div>    
+    <nav>
+        <ul>
+            <li>Acceuil</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <form action="" class="box">
+        <input type="text" placeholder="Enter le nom" class="name">
+        <select class="language">
+            <option value="Javascript">Select your langage</option>
+            <option value="Javascript">Javascript</option>
+            <option value="PHP">PHP</option>
+            <option value="Solidity">Solidity</option>
+        </select>
+        <input type="checkbox" id="cgv">
+        <label for="cgv"> Accepter les CGV</label>
+
+        <input type="submit" value="valider">
+
+        <div class="result"></div>
+    </form>
+    <script src="script1.js"></script>
+</body>
+</html>
